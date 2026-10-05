@@ -1,0 +1,15 @@
+Projeto com foco em dados de BTCUSDT fornecidos pela Binance.
+
+Não é necessario ter conta aberta na exchange.
+
+Formatos de arquivos disponiveis:
+
+| Dataset     | Granularidade       |    Tamanho | Uso típico           |
+| ----------- | ------------------- | ---------: | -------------------- |
+| `trades`    | cada execução       |  🔴 enorme | microestrutura       |
+| `aggTrades` | execuções agrupadas |  🟠 grande | fluxo/order flow     |
+| `klines`    | candles             | 🟢 pequeno | backtest tradicional |
+
+
+
+

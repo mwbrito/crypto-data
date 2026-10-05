@@ -79,6 +79,11 @@ target/
 # Jupyter Notebook
 .ipynb_checkpoints
 
+# Binance market data and generated analytical files
+*.zip
+*.parquet
+parquet_anual/
+
 # IPython
 profile_default/
 ipython_config.py
